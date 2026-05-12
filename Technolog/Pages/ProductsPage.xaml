@@ -1,0 +1,51 @@
+﻿<Page x:Class="Technolog.Pages.ProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="ProductsPage"
+      Loaded="ProductsPage_Loaded">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
+            <Button x:Name="btnAdd" Content="Добавить продукт" Width="120" Height="30" 
+                    Background="#27AE60" Foreground="White" Click="btnAdd_Click"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="dgProducts" AutoGenerateColumns="False" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding product_id}" Width="50"/>
+                <DataGridTextColumn Header="Код" Binding="{Binding product_code}" Width="100"/>
+                <DataGridTextColumn Header="Название" Binding="{Binding name}" Width="200"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding type}" Width="100"/>
+                <DataGridTextColumn Header="Форма выпуска" Binding="{Binding release_form}" Width="120"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding status}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid x:Name="gridAdd" Background="#80000000" Visibility="Collapsed">
+            <Border Background="White" Width="350" Height="280" CornerRadius="5" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Margin="15">
+                    <TextBlock Text="Новый продукт" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+                    <TextBox x:Name="txtCode" Margin="0,5" Text=""/>
+                    <TextBlock Text="Код продукта" FontSize="12" Foreground="Gray"/>
+                    <TextBox x:Name="txtName" Margin="0,5" Text=""/>
+                    <TextBlock Text="Название" FontSize="12" Foreground="Gray"/>
+                    <TextBox x:Name="txtType" Margin="0,5" Text=""/>
+                    <TextBlock Text="Тип" FontSize="12" Foreground="Gray"/>
+                    <TextBox x:Name="txtForm" Margin="0,5" Text=""/>
+                    <TextBlock Text="Форма выпуска" FontSize="12" Foreground="Gray"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                        <Button x:Name="btnSave" Content="Сохранить" Width="100" Click="btnSave_Click"/>
+                        <Button x:Name="btnCancel" Content="Отмена" Width="100" Margin="10,0,0,0" Click="btnCancel_Click"/>
+                    </StackPanel>
+                    <TextBlock x:Name="txtAddError" Foreground="Red" Margin="0,10,0,0"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

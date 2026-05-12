@@ -1,0 +1,52 @@
+﻿<Page x:Class="Technolog.Pages.DashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="DashboardPage"
+      Loaded="DashboardPage_Loaded">
+
+    <ScrollViewer>
+        <StackPanel Margin="20">
+            <TextBlock Text="Рабочий стол технолога" FontSize="22" FontWeight="Bold" Margin="0,0,0,20"/>
+
+            <WrapPanel Margin="0,0,0,20">
+                <Border Background="#3498DB" Width="200" Height="100" Margin="10" CornerRadius="5">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock x:Name="txtProductCount" Text="0" FontSize="28" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Продуктов" FontSize="14" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#2ECC71" Width="200" Height="100" Margin="10" CornerRadius="5">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock x:Name="txtRecipeCount" Text="0" FontSize="28" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Рецептур" FontSize="14" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#E67E22" Width="200" Height="100" Margin="10" CornerRadius="5">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock x:Name="txtOrderCount" Text="0" FontSize="28" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Заказов" FontSize="14" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+
+                <Border Background="#E74C3C" Width="200" Height="100" Margin="10" CornerRadius="5">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock x:Name="txtDeviationCount" Text="0" FontSize="28" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Отклонений" FontSize="14" Foreground="White"/>
+                    </StackPanel>
+                </Border>
+            </WrapPanel>
+
+            <TextBlock Text="Последние события" FontSize="16" FontWeight="Bold" Margin="5,10,5,5"/>
+            <DataGrid x:Name="dgEvents" AutoGenerateColumns="False" Height="300" Margin="5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Дата" Binding="{Binding event_date}" Width="150"/>
+                    <DataGridTextColumn Header="Событие" Binding="{Binding event_type}" Width="100"/>
+                    <DataGridTextColumn Header="Сущность" Binding="{Binding entity}" Width="100"/>
+                    <DataGridTextColumn Header="Описание" Binding="{Binding description}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

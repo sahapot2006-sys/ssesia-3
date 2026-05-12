@@ -1,0 +1,56 @@
+﻿<Page x:Class="Technolog.Pages.ProcessCardsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="ProcessCardsPage"
+      Loaded="ProcessCardsPage_Loaded">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="5">
+            <Button x:Name="btnAdd" Content="Новая техкарта" Width="120" Height="30" 
+                    Background="#27AE60" Foreground="White" Click="btnAdd_Click"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="1" x:Name="dgCards" AutoGenerateColumns="False" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding process_card_id}" Width="50"/>
+                <DataGridTextColumn Header="ID продукта" Binding="{Binding product_id}" Width="80"/>
+                <DataGridTextColumn Header="ID рецептуры" Binding="{Binding recipe_id}" Width="80"/>
+                <DataGridTextColumn Header="Версия" Binding="{Binding version}" Width="60"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding status}" Width="100"/>
+                <DataGridTextColumn Header="Дата утверждения" Binding="{Binding approved_at}" Width="120"/>
+                <DataGridTemplateColumn Header="Действия" Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Утвердить" Click="btnApprove_Click" Tag="{Binding process_card_id}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid x:Name="gridAdd" Background="#80000000" Visibility="Collapsed">
+            <Border Background="White" Width="350" Height="220" CornerRadius="5" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Margin="15">
+                    <TextBlock Text="Новая техкарта" FontSize="16" FontWeight="Bold"/>
+                    <TextBox x:Name="txtProductId" Margin="0,5" Text=""/>
+                    <TextBlock Text="ID продукта" FontSize="12" Foreground="Gray"/>
+                    <TextBox x:Name="txtRecipeId" Margin="0,5" Text=""/>
+                    <TextBlock Text="ID рецептуры" FontSize="12" Foreground="Gray"/>
+                    <TextBox x:Name="txtVersion" Margin="0,5" Text="1"/>
+                    <TextBlock Text="Версия" FontSize="12" Foreground="Gray"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
+                        <Button x:Name="btnSave" Content="Сохранить" Width="100" Click="btnSave_Click"/>
+                        <Button x:Name="btnCancel" Content="Отмена" Width="100" Margin="10,0,0,0" Click="btnCancel_Click"/>
+                    </StackPanel>
+                    <TextBlock x:Name="txtAddError" Foreground="Red"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

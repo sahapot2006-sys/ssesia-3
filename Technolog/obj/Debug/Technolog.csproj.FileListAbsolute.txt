@@ -1,0 +1,80 @@
+D:\Кононов 23п-1\Technolog\bin\Debug\Technolog.exe.config
+D:\Кононов 23п-1\Technolog\bin\Debug\Technolog.exe
+D:\Кононов 23п-1\Technolog\bin\Debug\Technolog.pdb
+D:\Кононов 23п-1\Technolog\bin\Debug\Newtonsoft.Json.dll
+D:\Кононов 23п-1\Technolog\bin\Debug\Newtonsoft.Json.xml
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.csproj.AssemblyReference.cache
+D:\Кононов 23п-1\Technolog\obj\Debug\LoginWindow.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\MainWindow.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\BatchesPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\DashboardPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\DeviationsPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ExtruderPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\OrdersPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ProcessCardsPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ProductsPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\RecipesPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ReportsPage.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\RegisterWindow.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\App.baml
+D:\Кононов 23п-1\Technolog\obj\Debug\LoginWindow.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\MainWindow.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\BatchesPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\DashboardPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\DeviationsPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ExtruderPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\OrdersPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ProcessCardsPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ProductsPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\RecipesPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Pages\ReportsPage.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\RegisterWindow.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\App.g.cs
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog_MarkupCompile.cache
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.g.resources
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.Properties.Resources.resources
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.csproj.GenerateResource.cache
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.csproj.CoreCompileInputs.cache
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.csproj.CopyComplete
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.exe
+D:\Кононов 23п-1\Technolog\obj\Debug\Technolog.pdb
+C:\Users\User\Desktop\Technolog\bin\Debug\Technolog.exe.config
+C:\Users\User\Desktop\Technolog\bin\Debug\Technolog.exe
+C:\Users\User\Desktop\Technolog\bin\Debug\Technolog.pdb
+C:\Users\User\Desktop\Technolog\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Technolog\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Technolog\obj\Debug\LoginWindow.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\BatchesPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\DashboardPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\DeviationsPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ExtruderPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\OrdersPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ProcessCardsPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ProductsPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\RecipesPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ReportsPage.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\RegisterWindow.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\App.baml
+C:\Users\User\Desktop\Technolog\obj\Debug\LoginWindow.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\BatchesPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\DashboardPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\DeviationsPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ExtruderPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\OrdersPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ProcessCardsPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ProductsPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\RecipesPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Pages\ReportsPage.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\RegisterWindow.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog_MarkupCompile.cache
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.g.resources
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.Properties.Resources.resources
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.csproj.Up2Date
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.exe
+C:\Users\User\Desktop\Technolog\obj\Debug\Technolog.pdb
