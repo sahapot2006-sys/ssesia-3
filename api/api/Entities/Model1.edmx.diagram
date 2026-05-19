@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f989c00dafd472a942c93253d9bd7ac" Name="Diagram1">
+        <EntityTypeShape EntityType="terModel.batch_raw_material_usage" Width="1.5" PointX="10.5" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.batch_step_execution" Width="1.5" PointX="10.5" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.deviations" Width="1.5" PointX="12.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.equipment" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.events" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.laboratory_tests" Width="1.5" PointX="10.5" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.production_batches" Width="1.5" PointX="5.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.production_orders" Width="1.5" PointX="8.25" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.products" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.raw_material_batches" Width="1.5" PointX="8.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.raw_materials" Width="1.5" PointX="6" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.recipe_components" Width="1.5" PointX="8.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.recipes" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.status_history" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.technology_map" Width="1.5" PointX="3" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.technology_steps" Width="1.5" PointX="5.25" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.test_parameters" Width="1.5" PointX="12.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.user_actions" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="terModel.users" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="terModel.FK_brmu_batch" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_brmu_rmb" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_bse_batch" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_bse_step" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_dev_step_exec" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_dev_batch" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_lt_batch" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_lt_rmb" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_tp_test" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_pb_order" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_pb_product" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_pb_recipe" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_pb_tech_map" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_po_product" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_po_recipe" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_po_tech_map" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_recipes_product" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_tm_product" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_rmb_raw_material" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_rc_raw_material" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_rc_recipe" ManuallyRouted="false" />
+        <AssociationConnector Association="terModel.FK_ts_tech_map" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

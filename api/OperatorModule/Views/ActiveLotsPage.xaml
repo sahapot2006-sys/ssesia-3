@@ -1,0 +1,43 @@
+﻿<Page x:Class="OperatorModule.Views.ActiveLotsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OperatorModule.Views"
+        mc:Ignorable="d"
+          Title="Активные партии"
+      Background="White">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Активные производственные партии" 
+                   FontSize="18" FontWeight="Bold" Margin="0,0,0,10"/>
+
+        <DataGrid x:Name="LotsGrid" Grid.Row="1" AutoGenerateColumns="False"
+                  IsReadOnly="True" SelectionChanged="LotsGrid_SelectionChanged"
+                  AlternatingRowBackground="#F5F5F5" FontSize="14">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер партии" Binding="{Binding LotNumber}" Width="150"/>
+                <DataGridTextColumn Header="Продукт" Binding="{Binding ProductName}" Width="200"/>
+                <DataGridTextColumn Header="Оборудование" Binding="{Binding EquipmentName}" Width="150"/>
+                <DataGridTextColumn Header="Текущий статус" Binding="{Binding Status}" Width="150"/>
+                <DataGridTextColumn Header="Начата" Binding="{Binding StartedAt, StringFormat=dd.MM.yyyy HH:mm}" Width="120"/>
+                <DataGridTextColumn Header="План (кг)" Binding="{Binding PlannedQuantity}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,10,0,0">
+            <Button x:Name="ContinueButton" Content="▶ Продолжить работу" Width="180" Margin="5"
+                    Background="#27AE60" Foreground="White" Click="ContinueButton_Click" IsEnabled="False"
+                    FontSize="14" FontWeight="Bold"/>
+            <Button x:Name="RefreshButton" Content="🔄 Обновить" Width="120" Margin="5"
+                    Background="#3498DB" Foreground="White" Click="RefreshButton_Click"
+                    FontSize="14"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,7 @@
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.csproj.AssemblyReference.cache
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.gentestingplatformentrypointinputcache.cache
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.genautoregisteredextensionsinputcache.cache
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.AssemblyInfoInputs.cache
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.AssemblyInfo.cs
+D:\ссесия 3курс\3 практика\api\LaboratoryModule.Tests\obj\Debug\net8.0\LaboratoryModule.Tests.csproj.CoreCompileInputs.cache
